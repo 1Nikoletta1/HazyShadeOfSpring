@@ -1,4 +1,5 @@
 # HazyShadeOfSpring
+My training project
 
 INTRO:
   minimalistic e-commerce website;
