@@ -1,10 +1,10 @@
 # HazyShadeOfSpring
 
 INTRO:
-  minimalistic e-commerce website
-  static HTML files
-  responsive layout with RWD techniques (media queries)
-  some basic JS 
+  minimalistic e-commerce website;
+  static HTML files;
+  responsive layout with RWD techniques (media queries);
+  some basic JS; 
   
 PAGES:
   - index (Homepage)
