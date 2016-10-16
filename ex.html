@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var cart = {
+            item: "Product 1",
+            price: 35.50,
+            qty: 20
+        };
+
+        //преобразуем объект cart в JSON строку
+        var jsonStr = JSON.stringify(cart);
+
+        sessionStorage.setItem("cart", jsonStr);
+
+        var cartValue = sessionStorage.getItem("cart");
+
+        //преобразуем JSON строку в JS объект
+        var cartObj = JSON.parse(cartValue);
+
+        console.log(cartObj);
+    </script>
+</body>
+</html>

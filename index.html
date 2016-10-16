@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/common/handlebars-v4.0.5.js" defer></script>
+    <script src="js/page.js" defer></script>
+</head>
+<body>
+
+    <div id="clothes-gallery"></div>
+
+    <script id="entry-template" type="text/x-handlebars-template">
+        <div class="entry">
+            {{#each items}}
+                {{#if_eq type "coat"}}
+                    {{name}}
+                    {{price}}
+                    <img src="{{imageUrl}}">
+                {{/if_eq}}
+            {{/each}}
+        </div>
+    </script>
+
+    <script>
+
+
+    </script>
+</body>
+</html>

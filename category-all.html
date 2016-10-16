@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<title>Category all</title>
+	<script src="js/common/handlebars-v4.0.5.js" defer></script>
+	<script src="js/page.js" defer></script>
+
+	<link rel="stylesheet" href="css/style.css" type="text/css" defer>
+	<script src="js/index.js" defer></script>
+</head>
+<body>
+	<div id="wrapper">
+		<section class="header">
+			<div id="logo"><a href="index.html"><p id="sh">sh</p></a></div>
+			<nav>
+				<a href="category-all.html">Woman</a>
+				<a href="category-all.html">Men</a>
+				<a href="category-all.html">Kids</a>
+				<a href="category-all.html">Coming Soon</a>
+			</nav>
+
+			<div id="right-side-nav">
+
+
+
+				<div id="search-area">
+					<form name="search" class="search" isHidden="false">
+						<button type="submit" id="main-button-search">
+							<img src="img/search.png">
+						</button>
+					</form>
+				</div>
+
+
+
+				<!--<div id="basket-area">-->
+					<!--<a href="shop-cart.html"><img src="img/basket.png">Basket</a>-->
+				<!--</div>-->
+			</div>
+			<hr class="line-separation">
+			<hr class="second-line-separation">
+		</section>
+		<div id="breadcrumbs">
+			<a href="index.html">home</a> / <a href="category-all.html">Men</a>
+		</div>
+		<section id="shop-by-category">
+			<section>
+				<header>
+					<h2>Coats</h2>
+				</header>
+				<section class="clothes-gallery">
+
+					<script class="entry-template" type="text/x-handlebars-template">
+						{{#each items}}
+							{{#if_eq type "coat"}}
+								<figure>
+									<div class="gray-image">
+										<a href="pdp.html">
+											<img src="{{imageUrl}}">
+										</a>
+									</div>
+									<figcaption>
+										<a href="pdp.html">
+											<h3>{{name}}</h3>
+										</a>
+										<h6>{{price}}</h6>
+									</figcaption>
+								</figure>
+							{{/if_eq}}
+						{{/each}}
+					</script>
+
+				</section>
+			</section>
+			<hr>
+			<section>
+				<header>
+					<h2>Outerwear</h2>
+				</header>
+				<section class="clothes-gallery">
+
+					<script class="entry-template" type="text/x-handlebars-template">
+						{{#each items}}
+							{{#if_eq type "outerwear"}}
+							<figure>
+								<div class="gray-image">
+									<a href="pdp.html">
+										<img src="{{imageUrl}}">
+									</a>
+								</div>
+								<figcaption>
+									<a href="pdp.html">
+										<h3>{{name}}</h3>
+									</a>
+									<h6>{{price}}</h6>
+								</figcaption>
+							</figure>
+							{{/if_eq}}
+						{{/each}}
+					</script>
+
+				</section>
+			</section>
+			<hr>
+			<section>
+				<header>
+					<h2>T-shirts</h2>
+				</header>
+				<section class="clothes-gallery">
+					<script class="entry-template" type="text/x-handlebars-template">
+						{{#each items}}
+							{{#if_eq type "t-shirt"}}
+							<figure>
+								<div class="gray-image">
+									<a href="pdp.html">
+										<img src="{{imageUrl}}">
+									</a>
+								</div>
+								<figcaption>
+									<a href="pdp.html">
+										<h3>{{name}}</h3>
+									</a>
+									<h6>{{price}}</h6>
+								</figcaption>
+							</figure>
+							{{/if_eq}}
+						{{/each}}
+					</script>
+				</section>
+			</section>
+			<hr>
+			<section>
+				<header>
+					<h2>Shoes</h2>
+				</header>
+				<section class="clothes-gallery">
+					<script class="entry-template" type="text/x-handlebars-template">
+						{{#each items}}
+						{{#if_eq type "shoes"}}
+						<figure>
+							<div class="gray-image">
+								<a href="pdp.html">
+									<img src="{{imageUrl}}">
+								</a>
+							</div>
+							<figcaption>
+								<a href="pdp.html">
+									<h3>{{name}}</h3>
+								</a>
+								<h6>{{price}}</h6>
+							</figcaption>
+						</figure>
+						{{/if_eq}}
+						{{/each}}
+					</script>
+				</section>
+			</section>
+			<hr>
+		</section>
+		
+		<section id="carousel-area">
+			<header>
+				<h4>Check our lookbook</h4>
+			</header>		
+			<section id="carousel">
+				<button class="arrow prev">
+					<img src="img/left-arrow.png" height="33" width="17">
+				</button>
+				<div id="gallery">
+					<ul id="scroll-images">
+							<li><img src="img/carousel.jpg"></li>
+							<li><img src="img/carousel.jpg"></li>
+							<li><img src="img/carousel.jpg"></li>
+							<li><img src="img/carousel.jpg"></li>
+							<li><img src="img/carousel.jpg"></li>
+							<li><img src="img/carousel.jpg"></li>
+							<li><img src="img/carousel.jpg"></li>
+							<li><img src="img/carousel.jpg"></li>
+							<li><img src="img/carousel.jpg"></li>
+							<li><img src="img/carousel.jpg"></li>
+							<li><img src="img/carousel.jpg"></li>
+							<li><img src="img/carousel.jpg"></li>
+							<li><img src="img/carousel.jpg"></li>
+							<li><img src="img/carousel.jpg"></li>
+							<li><img src="img/carousel.jpg"></li>
+					</ul>
+				</div>
+				<button class="arrow next">
+					<img src="img/right-arrow.png" height="33" width="17">
+				</button>
+			</section>
+		</section>
+
+		<footer>
+			<section class="hide-when-width-768">
+				<h3>Collection</h3>
+				<ul>
+					<li><a href="#">Woman <span>(1725)</span></a></li>
+					<li><a href="#">Men <span>(635)</span></a></li>
+					<li><a href="#">Kids <span>(2514)</span></a></li>
+					<li><a href="#">Coming soon <span>(76)</span></a></li>
+				</ul>
+			</section>
+			<section class="hide-when-width-768">
+				<h3>Site</h3>
+				<ul>
+					<li><a href="#">Terms of Service</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Copyright Policy</a></li>
+					<li><a href="#">Press Kit</a></li>
+					<li><a href="#">Support</a></li>
+				</ul>
+			</section>
+			<section class="hide-when-width-768">
+				<h3>Shop</h3>
+				<ul>
+					<li><a href="#">About us</a></li>
+					<li><a href="#">Shipping Metods</a></li>
+					<li><a href="#">Career</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</section>
+			<section>
+				<h3>Social</h3>
+				<ul>
+					<li><a>Shoper is made with love in Warsaw</a></li>
+					<li><a>2014 &copy All rights reserved. El Passion</a></li>
+					<li>
+						<a href="#">
+							<figure>
+								<img src="img/twitter.png">
+							</figure>
+						</a>
+						<a href="#">
+							<figure>
+								<img src="img/facebook.png">
+							</figure>
+						</a>
+						<a href="#">
+							<figure>
+								<img src="img/instagram.png">
+							</figure>
+						</a>
+					</li>
+				</ul>
+			</section>
+		</footer>
+
+	</div>
+</body>
+</html>

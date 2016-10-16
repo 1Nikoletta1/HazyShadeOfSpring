@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<title>Product Detail Page</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<script src="js/index.js" defer></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.shop.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<section class="header">
+			<div id="logo"><a href="index.html"><p id="sh">sh</p></a></div>
+			<nav>
+				<a href="category-all.html">Woman</a>
+				<a href="category-all.html">Men</a>
+				<a href="category-all.html">Kids</a>
+				<a href="category-all.html">Coming Soon</a>
+			</nav>
+
+			<div id="right-side-nav">
+				<div id="search-area">
+					<form name="search" action="#" method="get">
+						<button type="submit" id="main-button-search"><img src="img/search.png" height="16" width="16"></button>
+							<input id="search-input" type="text" name="q" placeholder="Search something..."> 				
+							<button type="submit" id="hover-button-search"><img src="img/search-white.png" height="16" width="16"></button>
+					</form>
+				</div>
+				<div id="basket-area">
+					<a href="shop-cart.html"><img src="img/basket.png" height="17" width="17">Basket<span id="basket-count"></span></a>
+				</div>
+			</div>
+			<hr class="line-separation">
+			<hr class="second-line-separation">
+		</section>
+		<div id="breadcrumbs">
+			<a href="index.html">home</a> / <a href="category-all.html">Men</a> / <a href="category-shoes">Shoes</a> / <a href="pdp.html">Floral plimsol</a>
+		</div>
+		<section id="product-details" class="item_box">
+			<figure id="main-product-image">
+				<img src="img/clothes/shoes1.png" class="main_img" id="img-to-change">
+				<figure id="product-mini-gallery">
+					<img src="img/clothes/shoes3.png">
+					<img src="img/clothes/shoes2.png">
+					<img src="img/clothes/shoes1.png">
+				</figure>
+			</figure>
+			<article>
+				<header>
+					<h2 class="item_title" id="item_title">Floral plimsoll</h2>
+				</header>			
+				<p id="article-num" class="article-num">Article number: 14210160762</p>
+				<p class="item_color">Black</p>
+				<h5>€<span class="item_price">99.95</span></h5>
+				<p class="item_description">Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies.</p> 				
+				<section id="product-sizes">
+					<header>
+						<h3>Size</h3>
+					</header>					
+					<label><input type='radio' name='get-size' value="38"><img src="img/size_38.png"></label>
+					<label><input type='radio' name='get-size' value="39"><img src="img/size_39.png"></label>
+					<label><input type='radio' name='get-size' value="40"><img src="img/size_40.png"></label>
+					<label><input type='radio' name='get-size' value="41"><img src="img/size_41.png"></label>
+					<label><input type='radio' name='get-size' value="42"><img src="img/size_42.png"></label>
+				</section>
+				<div id="message"></div>
+				<button class="add_item" data-id="1">Add to cart</button>
+			</article>
+			<!-- <button id="checkout">Checkout</button> -->
+			<hr>	
+		</section>
+
+		<section id="carousel-pdp-page">
+			<section id="carousel">
+				<button class="arrow prev">
+					<img src="img/left-arrow.png" height="33" width="17">
+				</button>
+				<div id="gallery">
+					<ul id="scroll-images">
+						<li><img src="img/carousel.jpg"></li>
+						<li><img src="img/carousel.jpg"></li>
+						<li><img src="img/carousel.jpg"></li>
+						<li><img src="img/carousel.jpg"></li>
+						<li><img src="img/carousel.jpg"></li>
+						<li><img src="img/carousel.jpg"></li>
+						<li><img src="img/carousel.jpg"></li>
+						<li><img src="img/carousel.jpg"></li>
+						<li><img src="img/carousel.jpg"></li>
+						<li><img src="img/carousel.jpg"></li>
+						<li><img src="img/carousel.jpg"></li>
+						<li><img src="img/carousel.jpg"></li>
+						<li><img src="img/carousel.jpg"></li>
+						<li><img src="img/carousel.jpg"></li>
+						<li><img src="img/carousel.jpg"></li>
+					</ul>
+				</div>
+				<button class="arrow next">
+					<img src="img/right-arrow.png" height="33" width="17">
+				</button>
+			</section>
+		</section>
+		<footer>
+			<section id="hide-when-width-768">
+				<h3>Collection</h3>
+				<ul>
+					<li><a href="#">Woman <span>(1725)</span></a></li>
+					<li><a href="#">Men <span>(635)</span></a></li>
+					<li><a href="#">Kids <span>(2514)</span></a></li>
+					<li><a href="#">Coming soon <span>(76)</span></a></li>
+				</ul>
+			</section>
+			<section id="hide-when-width-768">
+				<h3>Site</h3>
+				<ul>
+					<li><a href="#">Terms of Service</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Copyright Policy</a></li>
+					<li><a href="#">Press Kit</a></li>
+					<li><a href="#">Support</a></li>
+				</ul>
+			</section>
+			<section id="hide-when-width-768">
+				<h3>Shop</h3>
+				<ul>
+					<li><a href="#">About us</a></li>
+					<li><a href="#">Shipping Metods</a></li>
+					<li><a href="#">Career</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</section>
+			<section>
+				<h3>Social</h3>
+				<ul>
+					<li><a>Shoper is made with love in Warsaw</a></li>
+					<li><a>2014 &copy All rights reserved. El Passion</a></li>
+					<li>
+						<a href="#">
+							<figure>
+								<img src="img/twitter.png">
+							</figure>
+						</a>
+						<a href="#">
+							<figure>
+								<img src="img/facebook.png">
+							</figure>
+						</a>
+						<a href="#">
+							<figure>
+								<img src="img/instagram.png">
+							</figure>
+						</a>
+					</li>
+				</ul>
+			</section>
+		</footer>
+	</div>
+
+</body>
+</html>
+</body>
+</html>

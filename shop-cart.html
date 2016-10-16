@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<title>Shopping cart</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div id="wrapper">
+		<section class="header">
+			<div id="logo"><a href="index.html"><p id="sh">sh</p></a></div>
+			<nav>
+				<a href="category-all.html">Woman</a>
+				<a href="category-all.html">Men</a>
+				<a href="category-all.html">Kids</a>
+				<a href="category-all.html">Coming Soon</a>
+			</nav>
+
+			<div id="right-side-nav">
+				<div id="search-area">
+					<form name="search" action="#" method="get">
+						<button type="submit" id="main-button-search" onclick="press_SearchButton()"><img src="img/search.png" height="16" width="16"></button>
+							<input id="search-input" type="text" name="q" placeholder="Search something..."> 				
+							<button type="submit" id="hover-button-search" onclick="press_HoverSearchButton()"><img src="img/search-white.png" height="16" width="16"></button> 
+					</form>
+				</div>
+				<div id="basket-area">
+					<a href="shop-cart.html"><img src="img/basket.png" height="17" width="17">Basket<span id="basket-count"></span></a>
+				</div>
+			</div>
+			<hr class="line-separation">
+			<hr class="second-line-separation">
+		</section>
+		<div id="breadcrumbs">
+			<a href="index.html">home</a> / <a href="category-all.html">Men</a> / <a href="category-shoes">Shoes</a> / <a href="pdp.html">Floral plimsol</a>
+		</div>
+
+		<section id="shopping-cart">
+			<header>
+				<h2>Your shopping cart</h2>
+				<h5>Items reserved for limited time only</h5>
+				<button id="checkout">Update cart</button>
+			</header>
+						
+			<div id="table">
+				<div id="cart_content">					
+				
+				</div>
+				<div id="cart-order-now">
+					<a href="#" id="clear_cart">Empty cart</a>
+					<a href="category-all.html">Continue Shopping</a>
+					<a href="thank-you.html"><button id="order-now" onclick="localStorage.clear()">Order now</button></a> 
+				</div>
+			</div>	
+			
+			<hr>
+		</section>
+
+		<footer>
+			<section id="hide-when-width-768">
+				<h3>Collection</h3>
+				<ul>
+					<li><a href="#">Woman <span>(1725)</span></a></li>
+					<li><a href="#">Men <span>(635)</span></a></li>
+					<li><a href="#">Kids <span>(2514)</span></a></li>
+					<li><a href="#">Coming soon <span>(76)</span></a></li>
+				</ul>
+			</section>
+			<section id="hide-when-width-768">
+				<h3>Site</h3>
+				<ul>
+					<li><a href="#">Terms of Service</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Copyright Policy</a></li>
+					<li><a href="#">Press Kit</a></li>
+					<li><a href="#">Support</a></li>
+				</ul>
+			</section>
+			<section id="hide-when-width-768">
+				<h3>Shop</h3>
+				<ul>
+					<li><a href="#">About us</a></li>
+					<li><a href="#">Shipping Metods</a></li>
+					<li><a href="#">Career</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</section>
+			<section>
+				<h3>Social</h3>
+				<ul>
+					<li><a>Shoper is made with love in Warsaw</a></li>
+					<li><a>2014 &copy All rights reserved. El Passion</a></li>
+					<li>
+						<a href="#">
+							<figure>
+								<img src="img/twitter.png">
+							</figure>
+						</a>
+						<a href="#">
+							<figure>
+								<img src="img/facebook.png">
+							</figure>
+						</a>
+						<a href="#">
+							<figure>
+								<img src="img/instagram.png">
+							</figure>
+						</a>
+					</li>
+				</ul>
+			</section>
+		</footer>
+	</div>
+
+	<script src="js/index.js"></script>
+	<script src="js/shop-cart.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+{
+  "items": [
+    {
+      "id": "001",
+      "type": "coat",
+      "name": "Double-Layered Top",
+      "price": "666.99",
+      "imageUrl": "img/clothes/coat1.jpg"
+    },
+    {
+      "id": "002",
+      "type": "coat",
+      "name": "Double-Layered Top",
+      "price": "666.99",
+      "imageUrl": "img/clothes/coat2.jpg"
+    },
+    {
+      "id": "003",
+      "type": "coat",
+      "name": "Double-Layered Top",
+      "price": "666.99",
+      "imageUrl": "img/clothes/coat3.jpg"
+    },
+    {
+      "id": "004",
+      "type": "coat",
+      "name": "Double-Layered Top",
+      "price": "666.99",
+      "imageUrl": "img/clothes/coat4.jpg"
+    },
+    {
+      "id": "005",
+      "type": "outerwear",
+      "name": "Double-Layered Outerwear",
+      "price": "6666.99",
+      "imageUrl": "img/clothes/outerwear1.jpg"
+    },
+    {
+      "id": "006",
+      "type": "outerwear",
+      "name": "Double-Layered Outerwear",
+      "price": "6666.99",
+      "imageUrl": "img/clothes/outerwear1.jpg"
+    },
+    {
+      "id": "007",
+      "type": "outerwear",
+      "name": "Double-Layered Outerwear",
+      "price": "6666.99",
+      "imageUrl": "img/clothes/outerwear1.jpg"
+    },
+    {
+      "id": "008",
+      "type": "outerwear",
+      "name": "Double-Layered Outerwear",
+      "price": "6666.99",
+      "imageUrl": "img/clothes/outerwear1.jpg"
+    },
+    {
+      "id": "009",
+      "type": "t-shirt",
+      "name": "Double-Layered T-shirt",
+      "price": "33.99",
+      "imageUrl": "img/clothes/tshirt1.jpg"
+    },
+    {
+      "id": "010",
+      "type": "t-shirt",
+      "name": "Double-Layered T-shirt",
+      "price": "33.99",
+      "imageUrl": "img/clothes/tshirt1.jpg"
+    },
+    {
+      "id": "011",
+      "type": "t-shirt",
+      "name": "Double-Layered T-shirt",
+      "price": "33.99",
+      "imageUrl": "img/clothes/tshirt1.jpg"
+    },
+    {
+      "id": "012",
+      "type": "t-shirt",
+      "name": "Double-Layered T-shirt",
+      "price": "33.99",
+      "imageUrl": "img/clothes/tshirt1.jpg"
+    },
+    {
+      "id": "013",
+      "type": "shoes",
+      "name": "Floral plimsoll Shoes",
+      "price": "99.95",
+      "imageUrl": "img/clothes/shoes1.png",
+      "thumbs": {
+        "img1": "img/clothes/shoes1.png",
+        "img2": "img/clothes/shoes2.png",
+        "img3": "img/clothes/shoes3.png"
+      }
+    },
+    {
+      "id": "014",
+      "type": "shoes",
+      "name": "Floral plimsoll Shoes",
+      "price": "99.95",
+      "imageUrl": "img/clothes/shoes2.png",
+      "thumbs": {
+        "img1": "img/clothes/shoes1.png",
+        "img2": "img/clothes/shoes2.png",
+        "img3": "img/clothes/shoes3.png"
+      }
+    },
+    {
+      "id": "015",
+      "type": "shoes",
+      "name": "Floral plimsoll Shoes",
+      "price": "99.95",
+      "imageUrl": "img/clothes/shoes3.png",
+      "thumbs": {
+        "img1": "img/clothes/shoes1.png",
+        "img2": "img/clothes/shoes2.png",
+        "img3": "img/clothes/shoes3.png"
+      }
+    }
+  ]
+}
+
